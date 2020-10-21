@@ -1,0 +1,105 @@
+/* Colors and fonts */
+body {
+  background-color: #ebebeb ;
+  color: #1b262c ;
+  font-family: Noto Sans JP;
+}
+
+h1, h2 {
+  font-family: Staatliches;
+}
+
+h1 {
+  color: #9d65c9;
+  font-size: 56px;
+  font-weight: 800;
+}
+
+h2 {
+  color: #ff414d;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #0278ae;
+  font-family: Noto Sans JP;
+  font-size: 20px;
+}
+
+a:hover {
+	color: #16213e;
+}
+
+#logo {
+ width : 200px;
+}
+
+/* Custom design with class */
+
+.container {
+ width: 700px;
+ margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+ .container {
+  width: 600px;
+ }
+}
+
+@media (max-width: 500px) {
+ .container {
+  width: 400px;
+ }
+}
+
+.card-white {
+ background-color: white;
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgba(0,0,0);
+ border-radius: 4px;
+ margin: 20px 0px;
+ text-align: center;
+}
+
+.img-circle {
+ border-radius: 46%;
+}
+
+.btn-blue {
+ background-color: rgb(46, 136, 204);
+ color: white;
+ padding: 15px 20px;
+ border-radius: 4px;
+}
+
+.btn-blue:hover {
+ background-color: black;
+ color: white;
+}
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px;
+}
+
+.list-inline li {
+ display: inline;
+ padding: 10px;
+}
+
+.list-inline i {
+ font-size: 50px;
+ color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+ font-size: 60px;
+ color: rgb(46, 136, 204);
+}
+
+#introduction p {
+ margin-bottom: 40px;
+}
